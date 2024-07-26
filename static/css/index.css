@@ -86,7 +86,7 @@ nav ul li a {
     border: 1px solid #ddd;
     padding: 20px;
     margin: 10px;
-    width: 30%;
+    width: calc(30% - 20px);
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
@@ -100,4 +100,17 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
+}
+
+/* Media Query para dispositivos menores, como celulares */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column; /* Altera a direção para coluna */
+        align-items: center; /* Centraliza os itens verticalmente */
+    }
+
+    nav ul li {
+        display: block; /* Mostra os itens do menu em bloco */
+        margin: 10px 0; /* Adiciona margem entre os itens */
+    }
 }
