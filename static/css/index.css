@@ -11,6 +11,7 @@ body {
 
 .container {
     width: 80%;
+    max-width: 1200px; /* Adiciona um máximo para o container */
     margin: 0 auto;
     padding: 20px;
 }
@@ -29,6 +30,8 @@ header h1 {
 nav ul {
     list-style: none;
     text-align: center;
+    display: flex; /* Utiliza flexbox para o layout do menu */
+    justify-content: center; /* Centraliza os itens horizontalmente */
 }
 
 nav ul li {
@@ -112,5 +115,9 @@ footer {
     nav ul li {
         display: block; /* Mostra os itens do menu em bloco */
         margin: 10px 0; /* Adiciona margem entre os itens */
+    }
+
+    .menu-items .menu-item {
+        width: 90%; /* Ajusta a largura para ocupar a largura total */
     }
 }
