@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelos - Quattro Performance</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/modelos.css') }}">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Quattro Performance</h1>
+            <nav>
+                <ul>
+                    <li><a href="/" class="cta-button">Início</a></li>
+                    <li><a href="/sobre" class="cta-button">Sobre</a></li>
+                    <li><a href="/modelos" class="cta-button">Modelos</a></li>
+                    <li><a href="/contatos" class="cta-button">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="models">
+        <div class="container">
+            <h2>Nossos Modelos em Destaque</h2>
+            <div class="model-items">
+                <div class="model-item">
+                    <img src="{{ url_for('static', filename='img/911.jpg') }}" alt="Porsche 911 GT3">
+                    <h3>Porsche 911 GT3</h3>
+                    <p><strong>Cavalos de Potência:</strong> 500 hp</p>
+                    <p><strong>Torque:</strong> 460 lb-ft</p>
+                    <p><strong>0-100 km/h:</strong> 3.4 segundos</p>
+                </div>
+                <div class="model-item">
+                    <img src="{{ url_for('static', filename='img/488.jpg') }}" alt="Ferrari 488 Pista">
+                    <h3>Ferrari 488 Pista</h3>
+                    <p><strong>Cavalos de Potência:</strong> 710 hp</p>
+                    <p><strong>Torque:</strong> 568 lb-ft</p>
+                    <p><strong>0-100 km/h:</strong> 2.85 segundos</p>
+                </div>
+                <div class="model-item">
+                    <img src="{{ url_for('static', filename='img/huracan.jpg') }}" alt="Lamborghini Huracán Performante">
+                    <h3>Lamborghini Huracán Performante</h3>
+                    <p><strong>Cavalos de Potência:</strong> 640 hp</p>
+                    <p><strong>Torque:</strong> 442 lb-ft</p>
+                    <p><strong>0-100 km/h:</strong> 2.9 segundos</p>
+                </div>
+                <div class="model-item">
+                    <img src="{{ url_for('static', filename='img/r8.jpg') }}" alt="Audi R8 V10">
+                    <h3>Audi R8 V10</h3>
+                    <p><strong>Cavalos de Potência:</strong> 602 hp</p>
+                    <p><strong>Torque:</strong> 413 lb-ft</p>
+                    <p><strong>0-100 km/h:</strong> 3.2 segundos</p>
+                </div>
+                <div class="model-item">
+                    <img src="{{ url_for('static', filename='img/720s.jpg') }}" alt="McLaren 720S">
+                    <h3>McLaren 720S</h3>
+                    <p><strong>Cavalos de Potência:</strong> 710 hp</p>
+                    <p><strong>Torque:</strong> 568 lb-ft</p>
+                    <p><strong>0-100 km/h:</strong> 2.9 segundos</p>
+                </div>
+                <div class="model-item">
+                    <img src="{{ url_for('static', filename='img/chiron.jpg') }}" alt="Bugatti Chiron">
+                    <h3>Bugatti Chiron</h3>
+                    <p><strong>Cavalos de Potência:</strong> 1500 hp</p>
+                    <p><strong>Torque:</strong> 1180 lb-ft</p>
+                    <p><strong>0-100 km/h:</strong> 2.5 segundos</p>
+                </div>
+                <div class="model-item">
+                    <img src="{{ url_for('static', filename='img/amggt.jpg') }}" alt="Mercedes-AMG GT">
+                    <h3>Mercedes-AMG GT</h3>
+                    <p><strong>Cavalos de Potência:</strong> 577 hp</p>
+                    <p><strong>Torque:</strong> 516 lb-ft</p>
+                    <p><strong>0-100 km/h:</strong> 3.5 segundos</p>
+                </div>
+                <div class="model-item">
+                    <img src="{{ url_for('static', filename='img/agera.jpg') }}" alt="Koenigsegg Agera RS">
+                    <h3>Koenigsegg Agera RS</h3>
+                    <p><strong>Cavalos de Potência:</strong> 1160 hp</p>
+                    <p><strong>Torque:</strong> 944 lb-ft</p>
+                    <p><strong>0-100 km/h:</strong> 2.8 segundos</p>
+                </div>
+                <div class="model-item">
+                    <img src="{{ url_for('static', filename='img/huayra.jpg') }}" alt="Pagani Huayra">
+                    <h3>Pagani Huayra</h3>
+                    <p><strong>Cavalos de Potência:</strong> 730 hp</p>
+                    <p><strong>Torque:</strong> 738 lb-ft</p>
+                    <p><strong>0-100 km/h:</strong> 3.0 segundos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Quattro Performance. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
