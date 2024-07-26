@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #f8b400;
+    background-color: #3c3c3c;
     color: #fff;
     padding: 20px 0;
 }
@@ -43,10 +43,11 @@ nav ul li a {
 }
 
 .hero {
-    background: url('../img/bolo.jpg') no-repeat center center/cover;
-    color: #fff;
+    background: url('../img/audi.jpg') no-repeat center center/cover;
+    color: ##3c3c3c;
     padding: 100px 0;
-    text-align: center;
+    text-align: bottom;
+
 }
 
 .hero h2 {
@@ -55,12 +56,12 @@ nav ul li a {
 }
 
 .hero p {
-    margin-bottom: 20px;
+    margin-bottom: 150px;
     font-size: 1.2em;
 }
 
 .cta-button {
-    background-color: #ff6f61;
+    background-color: #3c3c3c;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -81,7 +82,7 @@ nav ul li a {
 }
 
 .menu-item {
-    background-color: #fff;
+    background-color: #b5b5b5;
     border: 1px solid #ddd;
     padding: 20px;
     margin: 10px;
@@ -91,7 +92,7 @@ nav ul li a {
 
 .menu-item h3 {
     margin-bottom: 10px;
-    color: #f8b400;
+    color: #000000;
 }
 
 footer {
